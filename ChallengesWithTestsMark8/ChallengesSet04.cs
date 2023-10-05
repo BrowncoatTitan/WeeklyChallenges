@@ -15,7 +15,7 @@ namespace ChallengesWithTestsMark8
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
         {
             var strArray = new string[] { str1, str2, str3, str4 };
-            return strArray.Min(l => l.Length);
+            return strArray.Min(l =>  l.Length);
         }
 
         public int GetSmallestNumber(int number1, int number2, int number3, int number4)
